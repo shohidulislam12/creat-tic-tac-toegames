@@ -1,0 +1,13 @@
+.square{
+    border:  2px solid black ;
+
+   
+    
+}
+.grid{
+    display: grid ;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    border: 2px solid gray;
+    padding: 10px;
+}
